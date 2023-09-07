@@ -7,7 +7,30 @@
     background-position: top;
     background-size: cover;
 
-  }
+}
+
+    @media (max-width: 768px) {
+      .jumbotron {
+        padding: 50px; /* Reduce padding for tablets */
+      }
+    
+      .jumbotron img {
+        max-width: 80%; /* Reduce the image size for tablets */
+      }
+    }
+    
+    /* Breakpoint for small screens (mobile) */
+    @media (max-width: 576px) {
+      .jumbotron {
+        padding: 30px; /* Further reduce padding for mobile */
+      }
+    
+      .jumbotron img {
+        max-width: 60%; /* Reduce the image size for mobile */
+      }
+    }
+
+
   
   .jumbotron-content {
     position: absolute;

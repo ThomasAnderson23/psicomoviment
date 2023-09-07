@@ -6,7 +6,7 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-         <Grid container className="Footer" spacing={4}>
+         <Grid container className="Footer" position="sticky" spacing={4}>
            <Grid item xs={2}>
              <p>LOGO</p>
            </Grid>

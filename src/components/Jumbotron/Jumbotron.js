@@ -7,6 +7,9 @@ const Jumbotron = () => {
   return (
     <div className="jumbotron">
         <div className="jumbotron-content">
+        <div> 
+          <img src="../../images/Jumbotron.png" alt="jumboImg"/>
+        </div>
           <Typography variant="h4">Desata tu Potencial Interno</Typography>
           <Button variant="contained" color="primary">
             Reserva tu Sesión Ahora
