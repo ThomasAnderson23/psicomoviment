@@ -1,38 +1,39 @@
 import React from 'react'
 import { Grid } from '@mui/material'
+import ArrowCircleUpIcon from '@mui/icons-material/ArrowCircleUp';
+import Logo from '../../static/images/psicomovimentLogo.png'
 import './Footer.css'
 
 
 
 const Footer = () => {
     return (
-         <Grid container className="Footer" position="sticky" spacing={4}>
+         <Grid container className="Footer" spacing={4} sx={{ paddingLeft: "100px", paddingRight: "100px", paddingBottom: "100px", paddingTop: "100px", color: "white"  }}>
            <Grid item xs={2}>
-             <p>LOGO</p>
+           <img src={Logo} alt="psicomovimentLogo" width={115}/>
            </Grid>
            <Grid item xs={4}>
-             <p>Oficina General</p>
-             <p>Gral. Holley 2326. Of 1305</p>
-             <p>Providencia</p>
-             <p>Santiago de Chile</p>
-             <p></p>
-             <p>+56 9 9330 1190</p>
-             <p>Juan.fernandez@psicomoviment.cl</p>
+             <div style= {{fontWeight: 800 }}>Oficina Central</div>
+             <div>Gral. Holley 2326. Of 1305</div>
+             <div>Providencia</div>
+             <div style= {{marginBottom: 30}} >Santiago de Chile</div>
+             <div style= {{fontSize: 13}}>+56 9 9330 1190</div>
+             <div style= {{fontSize: 13}}>Juan.fernandez@psicomoviment.cl</div>
+           </Grid>
+           <Grid item xs={2} sx={{ fontSize: 10 }}>
+             <div>Reserva tu sesión</div>
+             <div>Sobre Nosotros</div>
+             <div>Servicios</div>
+             <div>Modalidades</div>
+             <div>Equipo</div>
+             <div>Experiencias</div>
+           </Grid>
+           <Grid item xs={2} sx={{ fontSize: 10 }}>
+             <div>LinkedIn</div>
+             <div>Instagram</div>
            </Grid>
            <Grid item xs={2}>
-             <p>Reserva tu sesión</p>
-             <p>Sobre Nosotros</p>
-             <p>Servicios</p>
-             <p>Modalidades</p>
-             <p>Equipo</p>
-             <p>Experiencias</p>
-           </Grid>
-           <Grid item xs={2}>
-             <p>LinkedIn</p>
-             <p>Instagram</p>
-           </Grid>
-           <Grid item xs={2}>
-           <p>Flecha</p>
+           <div> <ArrowCircleUpIcon sx={{ fontSize: 60 }}/> </div>
            </Grid>
          </Grid>
   )
