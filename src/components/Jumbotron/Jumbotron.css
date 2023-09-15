@@ -1,44 +1,69 @@
+@font-face {
+  font-family: 'MontaguSlab';
+  font-style: normal;
+  font-weight: normal;
+  src: local('MontaguSlab'), url('../../static/fonts/MontaguSlab_96pt-SemiBold.ttf') format('truetype');
+}
 .jumbotron {
-    background-color: #2196F3;
-    background-image: url('../../static/images/Jumbotron.png ');
-    height: 800px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
+  background-color: #2196f3;
+  background-image: url("../../static/images/Jumbotron.png ");
+  height: 800px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  color: black;
+  position: initial;
+}
+.jumboFont {
+
+  font-family: "MontaguSlab" !important;
+  font-size: 18px;
 
 }
 
-    @media (max-width: 768px) {
-      .jumbotron {
-        padding: 50px; /* Reduce padding for tablets */
-      }
-    
-      .jumbotron img {
-        max-width: 80%; /* Reduce the image size for tablets */
-      }
-    }
-    
-    /* Breakpoint for small screens (mobile) */
-    @media (max-width: 576px) {
-      .jumbotron {
-        padding: 30px; /* Further reduce padding for mobile */
-      }
-    
-      .jumbotron img {
-        max-width: 60%; /* Reduce the image size for mobile */
-      }
-    }
+.jumboButton {
 
+  top: -60px; /* Vertically center content */
 
-  
-  .jumbotron-content {
-    position: absolute;
-    top: 50%; /* Vertically center content */
-    left: 50%; /* Horizontally center content */
-    transform: translate(-50%, -50%); /* Center content perfectly */
-    text-align: center;
-    color: white; /* Change text color to ensure readability */
-    padding: 20px;
+}
+
+.h1 {
+
+  margin: 10;
+}
+.h2 {
+  margin:100;
+}
+.h3 {
+  margin:10;
+}
+@media (max-width: 768px) {
+  .jumbotron {
+    padding: 50px; /* Reduce padding for tablets */
   }
-  
+
+  .jumbotron img {
+    max-width: 80%; /* Reduce the image size for tablets */
+  }
+}
+
+/* Breakpoint for small screens (mobile) */
+@media (max-width: 576px) {
+  .jumbotron {
+    padding: 30px; /* Further reduce padding for mobile */
+  }
+
+  .jumbotron img {
+    max-width: 60%; /* Reduce the image size for mobile */
+  }
+}
+
+.jumbotron-content {
+  position: absolute;
+  top: 62%; /* Vertically center content */
+  left: 17%; /* Horizontally center content */
+  color: white; /* Change text color to ensure readability */
+  padding: 20px;
+  font-size: 100px;
+}

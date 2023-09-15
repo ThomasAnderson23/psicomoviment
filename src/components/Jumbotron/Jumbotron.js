@@ -1,20 +1,26 @@
 import React from "react";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
-import './Jumbotron.css'
+import "./Jumbotron.css";
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 const Jumbotron = () => {
   return (
     <div className="jumbotron">
-        <div className="jumbotron-content">
-        <div> 
-          <img src="../../images/Jumbotron.png" alt="jumboImg"/>
-        </div>
-          <Typography variant="h4">Desata tu Potencial Interno</Typography>
-          <Button variant="contained" color="primary">
-            Reserva tu Sesión Ahora
-          </Button>
-        </div>
+      <div className="jumbotron-content">
+        <Typography
+          variant="h4"
+          className="jumboFont"
+          sx={{ color: "black !important", fontSize: '9' }}
+        >
+        
+          <h1 className="h1">Desata tu <br /> potencial interno</h1>
+        </Typography>
+        <Button className="jumboButton" variant="contained" color="primary">
+          Reserva tu Sesión Ahora <div> <ArrowForwardIcon sx={{ fontSize: 15, top: '10' }}/> </div>
+
+        </Button> 
+      </div>
     </div>
   );
 };

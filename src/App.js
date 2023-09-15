@@ -4,6 +4,7 @@ import ResponsiveAppBar from './components/Header/Header';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Footer from './components/Footer/Footer';
 import Jumbotron from './components/Jumbotron/Jumbotron';
+import AboutUs from './components/AboutUs/AboutUs';
 
 const theme = createTheme({
   palette: {
@@ -19,6 +20,7 @@ function App() {
       <ThemeProvider theme={theme}>
       <ResponsiveAppBar />
       <Jumbotron />
+      <AboutUs />
       <Footer />
       </ThemeProvider>
     </div>
