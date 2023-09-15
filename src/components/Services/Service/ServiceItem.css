@@ -1,0 +1,9 @@
+.service-card {
+    margin-right: 30px;
+    margin-bottom: 50px;
+    display: inline-flex;
+    text-wrap: wrap;
+    border-radius: 15px !important;
+    cursor: auto;
+    font-family: 'Poppins' !important;
+}

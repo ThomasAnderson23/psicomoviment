@@ -5,6 +5,8 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Footer from './components/Footer/Footer';
 import Jumbotron from './components/Jumbotron/Jumbotron';
 import AboutUs from './components/AboutUs/AboutUs';
+import Services from './components/Services/Services';
+import Modalidades from './components/Modalidades/Modalidades';
 
 const theme = createTheme({
   palette: {
@@ -18,10 +20,12 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
-      <ResponsiveAppBar />
-      <Jumbotron />
-      <AboutUs />
-      <Footer />
+        <ResponsiveAppBar />
+        <Jumbotron />
+        <AboutUs />
+        <Services />
+        <Modalidades />
+        <Footer />
       </ThemeProvider>
     </div>
   );

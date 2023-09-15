@@ -1,0 +1,35 @@
+.services-bg {
+  background-image: url("../../static/images/FondoCurvo.png ");
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  position: relative;
+}
+
+.card-container {
+  overflow-y: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+/* width */
+.card-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.card-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.card-container::-webkit-scrollbar-thumb {
+  background: #273043;
+}
+
+/* Handle on hover */
+.card-container::-webkit-scrollbar-thumb:hover {
+  background: black;
+}

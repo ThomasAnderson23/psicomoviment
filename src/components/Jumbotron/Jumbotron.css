@@ -1,42 +1,39 @@
 @font-face {
-  font-family: 'MontaguSlab';
+  font-family: "MontaguSlab";
   font-style: normal;
   font-weight: normal;
-  src: local('MontaguSlab'), url('../../static/fonts/MontaguSlab_96pt-SemiBold.ttf') format('truetype');
+  src: local("MontaguSlab"),
+    url("../../static/fonts/MontaguSlab_96pt-SemiBold.ttf") format("truetype");
 }
+
 .jumbotron {
-  background-color: #2196f3;
   background-image: url("../../static/images/Jumbotron.png ");
-  height: 800px;
+  height: 1021px;
   width: 100%;
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
   color: black;
-  position: initial;
+  position: relative;
 }
-.jumboFont {
 
+.jumboFont {
   font-family: "MontaguSlab" !important;
   font-size: 18px;
-
 }
 
 .jumboButton {
-
   top: -60px; /* Vertically center content */
-
 }
 
 .h1 {
-
   margin: 10;
 }
 .h2 {
-  margin:100;
+  margin: 100;
 }
 .h3 {
-  margin:10;
+  margin: 10;
 }
 @media (max-width: 768px) {
   .jumbotron {
@@ -61,8 +58,8 @@
 
 .jumbotron-content {
   position: absolute;
-  top: 62%; /* Vertically center content */
-  left: 17%; /* Horizontally center content */
+  top: 43%; /* Vertically center content */
+  left: 10%; /* Horizontally center content */
   color: white; /* Change text color to ensure readability */
   padding: 20px;
   font-size: 100px;

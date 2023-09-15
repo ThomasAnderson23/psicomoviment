@@ -14,7 +14,7 @@ const Jumbotron = () => {
           sx={{ color: "black !important", fontSize: '9' }}
         >
         
-          <h1 className="h1">Desata tu <br /> potencial interno</h1>
+          <h1>Desata tu <br /> potencial interno</h1>
         </Typography>
         <Button className="jumboButton" variant="contained" color="primary">
           Reserva tu Sesión Ahora <div> <ArrowForwardIcon sx={{ fontSize: 15, top: '10' }}/> </div>

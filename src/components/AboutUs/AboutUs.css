@@ -1,8 +1,8 @@
-.AboutUsBg {
-
-    height: 400px;
-    width: 100%;
-    background-color: #D1D1D1 !important;
-    position: relative;
-
+.mision {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: left;
+    margin: 50px !important;
+    box-shadow: 1rem 1rem #4A97D4, 0px 30px 30px rgb(0 0 0 / 0.2);
 }
