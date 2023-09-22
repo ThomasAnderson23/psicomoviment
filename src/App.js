@@ -7,6 +7,9 @@ import Jumbotron from './components/Jumbotron/Jumbotron';
 import AboutUs from './components/AboutUs/AboutUs';
 import Services from './components/Services/Services';
 import Modalidades from './components/Modalidades/Modalidades';
+import Principles from './components/Principles/Principles';
+import Team from './components/Team/Team';
+import Testimonies from './components/Testimonies/Testimonies';
 
 const theme = createTheme({
   palette: {
@@ -25,6 +28,9 @@ function App() {
         <AboutUs />
         <Services />
         <Modalidades />
+        <Principles />
+        <Team />
+        <Testimonies />
         <Footer />
       </ThemeProvider>
     </div>

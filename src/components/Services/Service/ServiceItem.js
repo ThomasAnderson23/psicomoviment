@@ -11,7 +11,7 @@ const ServiceItem = ({service}) => {
           component="img"
           height="275"
           image={image}
-          alt="green iguana"
+          alt="services"
         />
         <CardContent sx={{padding: "1.2rem"}} className='font-poppins'>
           <h3 className='m-0'>

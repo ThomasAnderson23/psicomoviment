@@ -14,22 +14,23 @@
   white-space: nowrap;
 }
 
-/* width */
+/* width 
 .card-container::-webkit-scrollbar {
   width: 10px;
 }
 
-/* Track */
+/* Track
 .card-container::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
 
-/* Handle */
+/* Handle 
 .card-container::-webkit-scrollbar-thumb {
   background: #273043;
 }
 
-/* Handle on hover */
+/* Handle on hover 
 .card-container::-webkit-scrollbar-thumb:hover {
   background: black;
 }
+*/

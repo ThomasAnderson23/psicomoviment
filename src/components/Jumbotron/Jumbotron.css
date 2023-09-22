@@ -7,10 +7,10 @@
 }
 
 .jumbotron {
-  background-image: url("../../static/images/Jumbotron.png ");
+  background-image: url("../../static/images/JumbotronFinal");
   height: 1021px;
   width: 100%;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
   background-position: top;
   background-size: cover;
   color: black;

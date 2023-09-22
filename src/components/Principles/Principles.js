@@ -1,33 +1,29 @@
 import React from "react";
-import "./Modalidades.css";
+import "./Principles.css";
 import { Grid } from "@mui/material";
-import ModItem from "./Modalidad/ModItem";
-import PresencialImg from "../../static/images/Iconos-modalidades/Vector.svg";
-import OnlineImg from "../../static/images/Iconos-modalidades/online.png";
-import HibridoImg from "../../static/images/Iconos-modalidades/hibrido.png";
+import PrinItem from "./Principle/PrinItem";
 
-const modList = [
+const PrinList = [
   {
     title: "Presencial",
     description:
       "Acompañamiento in situ, con un entrenamiento que refuerce tanto el desarrollo personal como profesional.",
-    image: PresencialImg,
+    image: null,
   },
   {
     title: "Online",
     description:
       "Maximizamos el uso de herramientas digitales, fomentamos la adaptación a nuevas estrategias digitales, ofrecemos capacitación continua y promovemos una cultura digital.",
-    image: OnlineImg,
+    image: null,
   },
   {
     title: "Híbrido",
     description:
       "Ofrecemos coaching en vivo y en línea, flexible para adaptarse a horarios de trabajo y la cultura corporativa. Nuestra variedad de métodos asegura la accesibilidad para todos los colaboradores, sin importar su ubicación o disponibilidad",
-    image: HibridoImg,
+    image: null,
   },
 ];
-
-const Modalidades = () => {
+const Principles = () => {
   return (
     <Grid
       container
@@ -50,8 +46,8 @@ const Modalidades = () => {
       </Grid>
       <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
         <Grid container>
-          {modList.map((s) => (
-            <ModItem mod={s} />
+          {PrinList.map((s) => (
+            <PrinItem prin={s} />
           ))}
         </Grid>
       </Grid>
@@ -59,4 +55,4 @@ const Modalidades = () => {
   );
 };
 
-export default Modalidades;
+export default Principles;

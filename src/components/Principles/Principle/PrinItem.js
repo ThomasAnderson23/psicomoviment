@@ -1,9 +1,9 @@
 import React from "react";
 import { Grid } from "@mui/material";
-import "./ModItem.css";
+import "./PrinItem.css";
 
-const ModItem = ({ mod }) => {
-  const { image, title, description } = mod;
+const PrinItem = ({ prin }) => {
+  const { image, title, description } = prin;
   return (
     <Grid item xs={12} sm={4} md={4} lg={4} xl={4} sx={{ textAlign: "center" }}>
       <Grid container>
@@ -33,4 +33,4 @@ const ModItem = ({ mod }) => {
   );
 };
 
-export default ModItem;
+export default PrinItem;
