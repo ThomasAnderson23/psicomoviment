@@ -32,5 +32,5 @@ const ModItem = ({ mod }) => {
     </Grid>
   );
 };
-
+  
 export default ModItem;

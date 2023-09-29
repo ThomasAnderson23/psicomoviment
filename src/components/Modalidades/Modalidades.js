@@ -6,7 +6,7 @@ import PresencialImg from "../../static/images/Iconos-modalidades/Vector.svg";
 import OnlineImg from "../../static/images/Iconos-modalidades/online.png";
 import HibridoImg from "../../static/images/Iconos-modalidades/hibrido.png";
 
-const modList = [
+const ModList = [
   {
     title: "Presencial",
     description:
@@ -50,7 +50,7 @@ const Modalidades = () => {
       </Grid>
       <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
         <Grid container>
-          {modList.map((s) => (
+          {ModList.map((s) => (
             <ModItem mod={s} />
           ))}
         </Grid>

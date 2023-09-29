@@ -1,57 +1,50 @@
 import React from "react";
+import { Carousel } from "@trendyol-js/react-carousel";
 import "./Principles.css";
-import { Grid } from "@mui/material";
-import PrinItem from "./Principle/PrinItem";
+import Car1 from "../../static/images/Profesionalismo.png";
+import Car2 from "../../static/images/Lealtad.png";
+import Car3 from "../../static/images/Trabajo-en-equipo.png";
+import Car4 from "../../static/images/Disciplina.png";
+import Car5 from "../../static/images/Tecnología.png";
+import PrinItem from "./Principle/PrinItem"
 
 const PrinList = [
   {
-    title: "Presencial",
-    description:
-      "Acompañamiento in situ, con un entrenamiento que refuerce tanto el desarrollo personal como profesional.",
-    image: null,
+    title: "1. Profesionalismo",
+    description: "En Psico Moviment, el profesionalismo es la base de nuestro compromiso con los deportistas.  Valoramos la confidencialidad, la ética y la excelencia en cada paso de nuestro trabajo, asegurando que cada deportista confíe en nosotros en su búsqueda del éxito olímpico.",
+    image: Car1,
   },
   {
-    title: "Online",
-    description:
-      "Maximizamos el uso de herramientas digitales, fomentamos la adaptación a nuevas estrategias digitales, ofrecemos capacitación continua y promovemos una cultura digital.",
-    image: null,
+    title: "2. Lealtad",
+    description: "En Psico Moviment, nuestra lealtad hacia los deportistas es inquebrantarle. Nos comprometemos a apoyarte en cada paso hacia el éxito, honrando tu confianza en nosotros.",
+    image: Car2,
   },
   {
-    title: "Híbrido",
-    description:
-      "Ofrecemos coaching en vivo y en línea, flexible para adaptarse a horarios de trabajo y la cultura corporativa. Nuestra variedad de métodos asegura la accesibilidad para todos los colaboradores, sin importar su ubicación o disponibilidad",
-    image: null,
+    title: "3. Trabajo en equipo",
+    description: "Valoramos y promovemos el trabajo en equipo como un pilar fundamental para el éxito deportivo. Facilitamos la colaboración entre deportistas, entrenadores y nuestro equipo de psicólogos para lograr metas compartidas y un rendimiento óptimo.",
+    image: Car3,
+  },
+  {
+    title: "4. Disciplina",
+    description: "Promovemos y cultivamos la disciplina como un pilar fundamental en el camino hacia el éxito. Te ayudamos a desarrollar la autodisciplina necesaria para mantenerte enfocado en tus objetivos y superar desafíos en tu carrera deportiva.",
+    image: Car4,
+  },
+  {
+    title: "5 Tecnología",
+    description: "Combinamos la psicología deportiva con tecnología de vanguardia para potenciar tu rendimiento como deportista olímpico. Nuestras soluciones tecnológicas avanzadas brindan análisis detallados y vengajas competitivas para impulsar tu éxito en el deporte.",
+    image: Car5,
   },
 ];
+
 const Principles = () => {
   return (
-    <Grid
-      container
-      justifyContent={"center"}
-      className="general-padding"
-      spacing={4}
-      sx={{ paddingBottom: "150px", paddingTop: "150px", height: "100%" }}
-    >
-      <Grid
-        item
-        xs={12}
-        sm={12}
-        md={12}
-        lg={12}
-        xl={12}
-        className="dark-blue m-0 Mod"
-      >
-        <h3 className="m-0">Modalidades</h3>
-        <h2 className="m-0">Estrategias a medida</h2>
-      </Grid>
-      <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
-        <Grid container>
-          {PrinList.map((s) => (
-            <PrinItem prin={s} />
-          ))}
-        </Grid>
-      </Grid>
-    </Grid>
+    <div className="PrinCarousel">
+      <Carousel show={1} slide={1} transition={0.5}>
+     {PrinList.map((s) => (
+          <PrinItem prin={s} />
+        ))}
+      </Carousel>
+    </div>
   );
 };
 
