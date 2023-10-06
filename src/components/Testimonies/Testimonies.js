@@ -2,7 +2,7 @@ import React from 'react'
 
 const Testimonies = () => {
   return (
-    <div>adlakdañkda</div>
+    <div>Acá van los testimonios</div>
   )
 }
 

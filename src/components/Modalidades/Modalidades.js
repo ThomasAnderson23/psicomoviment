@@ -34,7 +34,7 @@ const Modalidades = () => {
       justifyContent={"center"}
       className="general-padding"
       spacing={4}
-      sx={{ paddingBottom: "150px", paddingTop: "150px", height: "100%" }}
+      sx={{ paddingTop: "150px", height: "100%" }}
     >
       <Grid
         item
@@ -45,8 +45,8 @@ const Modalidades = () => {
         xl={12}
         className="dark-blue m-0 Mod"
       >
-        <h3 className="m-0">Modalidades</h3>
-        <h2 className="m-0">Estrategias a medida</h2>
+        <h3 className="m-0" >Modalidades</h3>
+        <h2 className="m-0" fontWeight= "950"  >Estrategias a medida</h2>
       </Grid>
       <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
         <Grid container>

@@ -11,13 +11,13 @@ const Jumbotron = () => {
         <Typography
           variant="h4"
           className="jumboFont"
-          sx={{ color: "black !important", fontSize: '9' }}
+          sx={{ color: "black !important", fontSize: '2' }}
         >
         
           <h1>Desata tu <br /> potencial interno</h1>
         </Typography>
         <Button className="jumboButton" variant="contained" color="primary">
-          Reserva tu Sesión Ahora <div> <ArrowForwardIcon sx={{ fontSize: 15, top: '10' }}/> </div>
+          Reserva tu Sesión Ahora <div> <ArrowForwardIcon sx={{ fontSize: 14, top: '10' }}/> </div>
 
         </Button> 
       </div>

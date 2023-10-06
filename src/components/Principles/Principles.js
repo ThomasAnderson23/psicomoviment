@@ -1,5 +1,6 @@
 import React from "react";
 import { Carousel } from "@trendyol-js/react-carousel";
+import { Grid } from "@mui/material";
 import "./Principles.css";
 import Car1 from "../../static/images/Profesionalismo.png";
 import Car2 from "../../static/images/Lealtad.png";
@@ -9,6 +10,7 @@ import Car5 from "../../static/images/Tecnología.png";
 import PrinItem from "./Principle/PrinItem";
 import { IconButton } from "@mui/material";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 
 const PrinList = [
   {
@@ -43,17 +45,43 @@ const PrinList = [
   },
 ];
 
+
 const Principles = () => {
   return (
+    <div>
+<Grid container
+justifyContent={"center"}
+className="general-padding"
+spacing={4}
+sx={{ paddingBottom: "50px", paddingTop: "150px", height: "100%" }}
+>
+<Grid
+  item
+  xs={12}
+  sm={12}
+  md={12}
+  lg={12}
+  xl={12}
+  className="dark-blue m-0 Mod"
+>
+  <h3 className="m-0">Principios</h3>
+  <h2 className="m-0">La Esencia que Nos Define</h2>
+</Grid>
+</Grid>
     <div className="PrinCarousel">
       <Carousel
         show={1}
         slide={1}
-        transition={0.5}
+        transition={0.3}
         rightArrow={
-          <IconButton aria-label="forward">
+          <IconButton aria-label="forward" sx={{ paddingTop: "250px", paddingRight: "150px", color: "black", maxWidth: "100%" }}>
             <ArrowForwardIosIcon />
           </IconButton>
+        }
+        leftArrow={
+          <IconButton aria-label="backward" sx={{ paddingTop: "250px", paddingLeft: "150px", color: "black" }}>
+          <ArrowBackIosIcon sx={{ fontSize: "large"  }}/>
+        </IconButton>
         }
       >
         {PrinList.map((s) => (
@@ -61,6 +89,8 @@ const Principles = () => {
         ))}
       </Carousel>
     </div>
+    </div>
+
   );
 };
 

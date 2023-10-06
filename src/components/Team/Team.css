@@ -1,0 +1,7 @@
+.team-bg {
+    background-image: url("../../static/images/FondoCorto2.png ");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+  }

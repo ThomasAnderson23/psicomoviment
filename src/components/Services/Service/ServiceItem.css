@@ -2,8 +2,20 @@
     margin-right: 30px;
     margin-bottom: 50px;
     display: inline-flex;
-    text-wrap: wrap;
+    white-space: bottom;
     border-radius: 15px !important;
     cursor: auto;
     font-family: 'Poppins' !important;
+
+}
+
+.horiCards {
+    
+    display: inline-flex;
+
+}
+
+.font-poppins2 {
+
+font-display: 100%;
 }

@@ -61,7 +61,6 @@ const Services = () => {
         md={12}
         lg={12}
         xl={12}
-        className="dark-blue m-0 card-container"
       >
         {servicesList.map((s) => (
           <ServiceItem service={s} />

@@ -24,7 +24,7 @@ const ModItem = ({ mod }) => {
         <Grid item xs={12} sm={12} md={12} lg={12} xl={12} sx={{ fontWeight:"bold", fontSize: "28px", marginTop: "-15px"}}>
         {title}
         </Grid>
-        <Grid item xs={12} sm={12} md={12} lg={12} xl={12} sx={{ fontWeight:"1px", fontSize: "14px", marginTop: "15px"}}>
+        <Grid item xs={12} sm={12} md={12} lg={12} xl={12} sx={{ fontWeight:"1px", fontSize: "13px", marginTop: "15px", marginLeft: "30px", marginRight: "30px"}}>
         {description}
         </Grid>
 
