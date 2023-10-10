@@ -40,7 +40,7 @@ const Services = () => {
       justifyContent={"center"}
       className="services-bg general-padding"
       spacing={4}
-      sx={{ paddingBottom: "150px", paddingTop: "150px", height: "100%" }}
+      sx={{ paddingBottom: "150px", paddingTop: "80px", height: "100%" }}
     >
       <Grid
         item

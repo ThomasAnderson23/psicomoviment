@@ -39,10 +39,10 @@ const Team = () => {
         md={12}
         lg={12}
         xl={12}
-        className="dark-blue m-0 Mod"
+        className="m-0 dark-blue Mod"
       >
-        <h3 className="m-0">Equipo</h3>
-        <h2 className="m-0" fontWeight="950">
+        <h3 className="m-0 whFont" style={{ color:"white !important"}}>Equipo</h3>
+        <h2 className="m-0">
           Almas colaborativas{" "}
         </h2>
       </Grid>

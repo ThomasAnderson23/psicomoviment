@@ -7,7 +7,7 @@ const ModItem = ({ mod }) => {
   return (
     <Grid item xs={12} sm={4} md={4} lg={4} xl={4} sx={{ textAlign: "center" }}>
       <Grid container>
-      <Grid item xs={12} sm={12} md={12} lg={12} xl={12} sx={{ marginBottom:"150px"}}>
+      <Grid item xs={12} sm={12} md={12} lg={12} xl={12} sx={{ marginBottom:"120px"}}>
 
         <div className="modContainer">
           <div className="whiteCircle">

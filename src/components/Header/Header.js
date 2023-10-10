@@ -16,7 +16,7 @@ export default function ButtonAppBar() {
       <AppBar position="fixed" sx={{ paddingLeft: "100px", paddingRight: "100px" }}>
         <Toolbar>
         <img src={Logo} alt="psicomovimentLogo" width={80}/>
-        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+        <Typography variant="h6" component="div" className="headerFont" sx={{ flexGrow: 1 }}>
           </Typography>
         {pages.map((page) => (
                 <Button color="inherit" className='normalCase' sx={{fontSize: "10pt"}} >{page}</Button>

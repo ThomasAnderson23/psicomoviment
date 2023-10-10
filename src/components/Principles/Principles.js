@@ -38,7 +38,7 @@ const PrinList = [
     image: Car4,
   },
   {
-    title: "5 Tecnología",
+    title: "5. Tecnología",
     description:
       "Combinamos la psicología deportiva con tecnología de vanguardia para potenciar tu rendimiento como deportista olímpico. Nuestras soluciones tecnológicas avanzadas brindan análisis detallados y vengajas competitivas para impulsar tu éxito en el deporte.",
     image: Car5,
@@ -52,8 +52,9 @@ const Principles = () => {
 <Grid container
 justifyContent={"center"}
 className="general-padding"
-spacing={4}
-sx={{ paddingBottom: "50px", paddingTop: "150px", height: "100%" }}
+sx={{ paddingBottom: "10px", paddingTop: "100px", height: "100%" }}
+spacing={3}
+
 >
 <Grid
   item
@@ -63,24 +64,25 @@ sx={{ paddingBottom: "50px", paddingTop: "150px", height: "100%" }}
   lg={12}
   xl={12}
   className="dark-blue m-0 Mod"
+  
 >
   <h3 className="m-0">Principios</h3>
   <h2 className="m-0">La Esencia que Nos Define</h2>
 </Grid>
 </Grid>
-    <div className="PrinCarousel">
+    <div className="prinCarousel" >
       <Carousel
         show={1}
         slide={1}
         transition={0.3}
         rightArrow={
-          <IconButton aria-label="forward" sx={{ paddingTop: "250px", paddingRight: "150px", color: "black", maxWidth: "100%" }}>
+          <IconButton aria-label="forward" sx={{ marginTop: "250px", marginRight: "150px", color: "black", maxWidth: "100%" }}>
             <ArrowForwardIosIcon />
           </IconButton>
         }
         leftArrow={
-          <IconButton aria-label="backward" sx={{ paddingTop: "250px", paddingLeft: "150px", color: "black" }}>
-          <ArrowBackIosIcon sx={{ fontSize: "large"  }}/>
+          <IconButton aria-label="backward" sx={{ marginTop: "250px", marginLeft: "150px", color: "black", maxWidth: "100%" }}>
+          <ArrowBackIosIcon/>
         </IconButton>
         }
       >

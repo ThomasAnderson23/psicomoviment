@@ -16,19 +16,19 @@ const PrinItem = ({ prin }) => {
         //sx={{ marginBottom: "150px" }}
       >
         <div className="prinImage">
-          <img src={image} alt="principle" width="600px" height="1080px" />
+          <img src={image} alt="principle" width={350} height={500}/>
         </div>
       </Grid>
       <Grid
         item
         xs={12}
         sm={12}
-        md={4.2}
-        lg={3.9}
-        xl={3.9}
+        md={5}
+        lg={5}
+        xl={5}
         sx={{
           color: "#000",
-          fontWeight: "light",
+          fontWeight: "normal",
           fontSize: "10px",
           height: "720px",
           marginLeft: "80px"

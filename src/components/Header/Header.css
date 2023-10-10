@@ -2,3 +2,11 @@
 
     text-transform: none !important;
 }
+
+
+.headerFont {
+
+    font-family: "../../static/fonts/Inter-VariableFont_slnt,wght.ttf";
+
+
+}

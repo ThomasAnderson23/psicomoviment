@@ -8,7 +8,7 @@
 
 .jumbotron {
   background-image: url("../../static/images/JumbotronFinal");
-  height: 1021px;
+  height: 800px;
   width: 100%;
   background-repeat: no-repeat; 
   background-position: top;
@@ -19,11 +19,15 @@
 
 .jumboFont {
   font-family: "MontaguSlab" !important;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .jumboButton {
-  top: -45px; /* Vertically center content */
+  width: 300px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 150px;
 }
 
 .h1 {
@@ -35,13 +39,13 @@
 .h3 {
   margin: 10;
 }
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .jumbotron {
     padding: 50px; /* Reduce padding for tablets */
   }
 
   .jumbotron img {
-    max-width: 80%; /* Reduce the image size for tablets */
+    max-width: 100%; /* Reduce the image size for tablets */
   }
 }
 
@@ -58,7 +62,7 @@
 
 .jumbotron-content {
   position: absolute;
-  top: 41%; /* Vertically center content */
+  top: 50%; /* Vertically center content */
   left: 5%; /* Horizontally center content */
   color: white; /* Change text color to ensure readability */
   padding: 20px;
