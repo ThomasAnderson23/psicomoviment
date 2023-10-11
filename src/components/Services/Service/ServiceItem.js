@@ -14,9 +14,9 @@ const ServiceItem = ({service}) => {
           alt="services" 
                 />
         <CardContent sx={{padding: "1.2rem", height: "400px"}} className='font-poppins'>
-          <h3 className='m-0'>  
+          <h7 className='m-0'>  
             {title}
-          </h3>
+          </h7>
           <Typography variant="body2" color="text.secondary" className='font-poppins2'>
             {description}
           </Typography>

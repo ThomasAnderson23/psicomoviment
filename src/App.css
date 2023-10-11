@@ -15,7 +15,7 @@
   @font-face {
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: lighter;
+    font-weight: light;
     src: local('Poppins'), url('./static/fonts/Poppins-Light.ttf') format('truetype');
   }
 
@@ -26,6 +26,12 @@
     src: local('Poppins'), url('./static/fonts/Poppins-Medium.ttf') format('truetype');
   }
 
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: lighter;
+    src: local('Poppins'), url('./static/fonts/Poppins-ExtraLight.ttf') format('truetype');
+  }
 
 body {
   font-family: 'Poppins';
@@ -55,7 +61,7 @@ h2 {
 
 h3 {
   font-size: 1.7em;
-  font-weight: lighter;
+  font-weight: 500;
   margin: 0;
 
 }
