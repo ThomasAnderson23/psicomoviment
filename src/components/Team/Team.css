@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-position: top;
     position: relative;
+    margin-top: -200px;
   }
 
   .whFont {

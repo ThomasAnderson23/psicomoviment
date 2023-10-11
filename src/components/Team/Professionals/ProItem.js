@@ -17,13 +17,13 @@ const ProItem = ({ pro }) => {
           md={12}
           lg={12}
           xl={12}
-          sx={{ marginBottom: "150px" }}
+          sx={{ marginBottom: "100px", borderRadius: "25px" }}
         >
           <div
             className={`proContainer ${backgroundImageClass}`}
             onMouseEnter={() => setMouse(true)}
             onMouseLeave={() => setMouse(false)}
-            style={{ height: "480px" }}
+            style={{ height: "450px", borderRadius: "25px" }}
           >
             <Grid
               item
@@ -32,15 +32,19 @@ const ProItem = ({ pro }) => {
               md={12}
               lg={12}
               xl={12}
-              sx={{ position: "absolute", bottom: "30px", color: "white",  textAlign: "left",
-              paddingLeft: "10px", }}
+              sx={{
+                position: "absolute",
+                bottom: "30px",
+                color: "white",
+                textAlign: "left",
+                paddingLeft: "10px",
+              }}
             >
               <h4
                 style={{
                   fontWeight: "bold",
                   fontSize: "20px",
-                  marginTop: "250px"
-                
+                  marginBottom: "-40px",
                 }}
               >
                 {title}
@@ -50,13 +54,23 @@ const ProItem = ({ pro }) => {
                   fontWeight: "lighter",
                   fontSize: "15px",
                   fontStyle: "italic",
-                  marginBottom: "10px"
+                  marginBottom: "-58px",
                 }}
               >
                 {position}{" "}
               </h6>{" "}
               <br />
-              {mouse && description}
+              <h6
+                style={{
+                  fontWeight: "lighter",
+                  fontSize: "15px",
+                  marginBottom: "-10px",
+                }}
+                className="m-o"
+              >
+                {" "}
+                {mouse && description}{" "}
+              </h6>
             </Grid>
           </div>
         </Grid>
