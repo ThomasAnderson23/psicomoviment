@@ -40,6 +40,7 @@ const Team = () => {
         lg={12}
         xl={12}
         className="m-0 dark-blue Mod"
+        sx={{mb: "20px"}}
       
       >
         <h3 className="m-0 whFont" style={{ color:"white !important"}}>Equipo</h3>
@@ -47,9 +48,8 @@ const Team = () => {
           Almas colaborativas{" "}
         </h2>
       </Grid>
-      <Grid item xs={12} sm={12} md={12} lg={12} xl={12}       
->
-        <Grid container sx= {{ position: "relative", marginTop: "-220px", borderRadius: "75px", maxHeight: "100%"}} spacing={4}>
+      <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
+        <Grid container>
           {teamList.map((s) => (
             <ProItem pro={s} />
           ))}

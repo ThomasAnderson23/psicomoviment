@@ -8,8 +8,8 @@ const ProItem = ({ pro }) => {
   const [mouse, setMouse] = useState(false);
 
   return (
-    <Grid item xs={12} sm={4} md={4} lg={4} xl={6} sx={{ textAlign: "center" }}>
-      <Grid container spacing={8}>
+    <Grid item xs={12} sm={12} md={6} lg={4} xl={4}>
+      <Grid container justifyContent={"center"}>
         <Grid
           item
           xs={12}
@@ -17,13 +17,13 @@ const ProItem = ({ pro }) => {
           md={12}
           lg={12}
           xl={12}
-          sx={{ marginBottom: "100px", borderRadius: "25px" }}
+          sx={{ textAlign: "-webkit-center", marginBottom: "100px", borderRadius: "25px", display: { xs: 'none', sm: 'block' } }}
         >
           <div
             className={`proContainer ${backgroundImageClass}`}
             onMouseEnter={() => setMouse(true)}
             onMouseLeave={() => setMouse(false)}
-            style={{ height: "450px", borderRadius: "25px" }}
+            style={{ maxWidth: 380, maxHeight: 450, height: 450, borderRadius: "25px" }}
           >
             <Grid
               item
@@ -73,6 +73,24 @@ const ProItem = ({ pro }) => {
               </h6>
             </Grid>
           </div>
+        </Grid>
+        <Grid
+          item
+          xs={12}
+          sm={12}
+          md={12}
+          lg={12}
+          xl={12}
+          sx={{ textAlign: "-webkit-center", marginBottom: "100px", borderRadius: "25px", display: { xs: 'block', sm: 'none' } }}
+        >
+          <div className={`alma-picture-container bg-position-center ${backgroundImageClass}`} />
+          <h4>
+            {title}
+          </h4>
+          <h5>
+            {position}
+          </h5>
+          <p>{description}</p>
         </Grid>
       </Grid>
     </Grid>

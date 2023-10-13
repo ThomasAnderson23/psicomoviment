@@ -1,24 +1,26 @@
 .mision {
-    background-color: #ffff;
-    border-radius: 10px;
-    padding: 30px;
-    text-align: left;
-    margin: 60px !important;
-    box-shadow: 1rem 1rem  #4A97D4, 10px 30px 30px rgb(1 1 1 / 0.2);
-    border-color: black;
-    border-top-color: black;
-}
-
-
-.AboutUsRectangle {
-
-  max-height: 100%;
-  max-width: 100%;
-  width: 3000px;
+  background-color: #ffff;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: left;
+  margin: 60px !important;
+  box-shadow: 1rem 1rem #4a97d4, 10px 30px 30px rgb(1 1 1 / 0.2);
+  border-color: black;
+  border-top-color: black;
 }
 
 .title1 {
-
+  font-weight: 600;
+  font-size: 40px;
+}
+/* RESPONSIVE */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .mision {
+    margin: 30px !important;
+  }
+  .title1 {
     font-weight: 600;
-    font-size: 40px;
+    font-size: 30px;
+  }
 }

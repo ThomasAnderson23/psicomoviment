@@ -8,7 +8,8 @@
 
 .jumbotron {
   background-image: url("../../static/images/JumbotronFinal");
-  height: 800px;
+  max-height: 800px;
+  height: 90vh;
   width: 100%;
   background-repeat: no-repeat; 
   background-position: top;
@@ -40,10 +41,11 @@
   margin: 10;
 }
 @media (max-width: 1200px) {
+  /*
   .jumbotron {
-    padding: 50px; /* Reduce padding for tablets */
+    padding: 50px;  Reduce padding for tablets 
   }
-
+*/
   .jumbotron img {
     max-width: 100%; /* Reduce the image size for tablets */
   }
@@ -51,10 +53,11 @@
 
 /* Breakpoint for small screens (mobile) */
 @media (max-width: 576px) {
+  /*
   .jumbotron {
-    padding: 30px; /* Further reduce padding for mobile */
+    padding: 30px;  Further reduce padding for mobile 
   }
-
+*/
   .jumbotron img {
     max-width: 60%; /* Reduce the image size for mobile */
   }

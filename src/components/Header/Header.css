@@ -1,12 +1,41 @@
 .normalCase {
-
-    text-transform: none !important;
+  text-transform: none !important;
 }
 
 
-.headerFont {
 
-    font-family: "../../static/fonts/Inter-VariableFont_slnt,wght.ttf";
-
-
+/* RESPONSIVE */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .header-fix {
+    padding-left: 30px !important;
+  }
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .header-fix {
+    padding-left: 35px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .header-fix {
+    padding-left: 40px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .header-fix {
+    padding-left: 70px;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .header-fix {
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+      }
+  }

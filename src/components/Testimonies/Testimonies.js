@@ -55,7 +55,6 @@ const Testimonies = () => {
               rightArrow={
                 <IconButton
                   aria-label="forward"
-                  id="flechaDerecha"
                   sx={{ color: "black", marginTop: "120px" }}
                 >
                   <ArrowForwardIosIcon />

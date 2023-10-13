@@ -3,6 +3,7 @@
     width: 100%;
     background-repeat: no-repeat;
     background-position: top;
+    background-size: contain;
     position: relative;
     margin-top: -200px;
   }
@@ -11,3 +12,17 @@
 
     color: white;
   }
+
+  @media only screen and (max-width: 600px) {
+    .team-bg {
+      background-image: url("../../static/images/FondoCorto2.png ");
+      width: 100%;
+      background-repeat: no-repeat;
+      background-position: top;
+      background-size: auto;
+      position: relative;
+      margin-top: -200px;
+    }
+  
+  }
+  

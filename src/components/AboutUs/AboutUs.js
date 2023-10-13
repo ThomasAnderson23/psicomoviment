@@ -7,7 +7,7 @@ const AboutUs = () => {
     <Grid
       container
       justifyContent={"center"}
-      className="AboutUsRectangle general-padding"
+      className="general-padding"
       spacing={4}
       sx={{ paddingBottom: "120px", paddingTop: "100px", color: "white" }}
     >
@@ -15,7 +15,7 @@ const AboutUs = () => {
         <h3 className='m-0'>Sobre nosotros</h3>
         <h2 className='m-0'>Conócenos mejor</h2>
       </Grid>
-      <Grid item xs={12} sm={7} md={10} lg={10} xl={10} className='mision dark-blue'>
+      <Grid item xs={24} sm={12} md={10} lg={10} xl={10} className='mision dark-blue'>
         <h2 className='m-0 title1'>
           Psico Moviment
         </h2>

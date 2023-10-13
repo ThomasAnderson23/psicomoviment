@@ -1,11 +1,70 @@
-.testText {
-
-    width: 100%;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 50px;
-    padding-bottom: 400px;
-    font-weight: lighter;
+/* Very small devices */
+@media only screen and (max-width: 600px) {
+  .testText {
+    font-size: 11pt;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 50px;
+    margin-bottom: 400px;
+    font-weight: normal;
     text-align: center;
-
+    width: 100%;
+  }
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .testText {
+        font-size: 11pt;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 50px;
+        margin-bottom: 400px;
+        font-weight: normal;
+        text-align: center;
+        width: 100%;
+      }
+  }
+
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .testText {
+        font-size: 11pt;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 50px;
+        margin-bottom: 400px;
+        font-weight: normal;
+        text-align: center;
+        width: 80%;
+      }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .testText {
+        font-size: 11pt;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 50px;
+        margin-bottom: 400px;
+        font-weight: normal;
+        text-align: center;
+        width: 85%;
+      }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .testText {
+        font-size: 14pt;
+      padding-left: 100px;
+      padding-right: 100px;
+      margin-top: 50px;
+      margin-bottom: 400px;
+      font-weight: lighter;
+      text-align: center;
+      width: 85%;
+    }
+  }

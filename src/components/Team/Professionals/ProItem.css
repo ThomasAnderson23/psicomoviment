@@ -1,7 +1,7 @@
 .proContainer {
     position: relative;
     padding-top: 30px;
-    margin-top: 180px;
+    background-size: cover !important;
 } 
 
 .pro1 {
@@ -42,4 +42,15 @@
 .pro3:hover {
     background: linear-gradient(to bottom, transparent, black),
     url("../../../static/images/Professional.png");
+}
+
+.alma-picture-container {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.bg-position-center {
+    background-position: center;
 }

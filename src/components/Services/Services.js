@@ -39,7 +39,7 @@ const Services = () => {
       container
       justifyContent={"center"}
       className="services-bg general-padding"
-      spacing={4}
+      //spacing={4}
       sx={{ paddingBottom: "150px", paddingTop: "80px", height: "100%" }}
     >
       <Grid
@@ -50,6 +50,7 @@ const Services = () => {
         lg={12}
         xl={12}
         className="dark-blue m-0"
+        sx={{ mb: "30px" }}
       >
         <h3 className="m-0 color-white">Servicios</h3>
         <h2 className="m-0">Soluciones a tu medida</h2>
@@ -61,6 +62,7 @@ const Services = () => {
         md={12}
         lg={12}
         xl={12}
+        sx={{textAlign: "center"}}
       >
         {servicesList.map((s) => (
           <ServiceItem service={s} />

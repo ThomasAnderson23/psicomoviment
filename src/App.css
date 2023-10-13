@@ -36,11 +36,7 @@
 body {
   font-family: 'Poppins';
   background-color: #e9e4e1;
-}
-
-.general-padding {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-right: 0 !important;
 }
 
 .dark-blue {
@@ -51,25 +47,107 @@ body {
   margin: 0;
 }
 
-h2 {
-  font-size: 3em;
-  font-weight: 900;
-  margin: 0;
-
-  
-}
-
-h3 {
-  font-size: 1.7em;
-  font-weight: 500;
-  margin: 0;
-
-}
-
 .font-poppins {
   font-family: 'Poppins' !important;
 }
 
 .color-white {
   color: #FFF;
+}
+
+
+/* RESPONSIVE */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .general-padding {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  h2 {
+    font-size: 2.2em;
+    font-weight: 900;
+    margin: 0;
+  }
+  
+  h3 {
+    font-size: 1.4em;
+    font-weight: 500;
+    margin: 0;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .general-padding {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  h2 {
+    font-size: 3em;
+    font-weight: 900;
+    margin: 0;
+  }
+  
+  h3 {
+    font-size: 1.7em;
+    font-weight: 500;
+    margin: 0;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .general-padding {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  h2 {
+    font-size: 3em;
+    font-weight: 900;
+    margin: 0;
+  }
+  
+  h3 {
+    font-size: 1.7em;
+    font-weight: 500;
+    margin: 0;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .general-padding {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  h2 {
+    font-size: 3em;
+    font-weight: 900;
+    margin: 0;
+  }
+  
+  h3 {
+    font-size: 1.7em;
+    font-weight: 500;
+    margin: 0;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .general-padding {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  h2 {
+    font-size: 3em;
+    font-weight: 900;
+    margin: 0;
+  }
+  
+  h3 {
+    font-size: 1.7em;
+    font-weight: 500;
+    margin: 0;
+  }
 }
