@@ -9,8 +9,8 @@ import Car4 from "../../static/images/Disciplina.png";
 import Car5 from "../../static/images/Tecnología.png";
 import PrinItem from "./Principle/PrinItem";
 import { IconButton } from "@mui/material";
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 
 const PrinList = [
   {
@@ -45,54 +45,63 @@ const PrinList = [
   },
 ];
 
-
 const Principles = () => {
   return (
     <div>
-<Grid container
-justifyContent={"center"}
-className="general-padding"
-sx={{ paddingBottom: "10px", paddingTop: "100px", height: "100%" }}
-spacing={3}
-
->
-<Grid
-  item
-  xs={12}
-  sm={12}
-  md={12}
-  lg={12}
-  xl={12}
-  className="dark-blue m-0 Mod"
-  
->
-  <h3 className="m-0">Principios</h3>
-  <h2 className="m-0">La Esencia que Nos Define</h2>
-</Grid>
-</Grid>
-    <div className="prinCarousel" >
-      <Carousel
-        show={1}
-        slide={1}
-        transition={0.3}
-        rightArrow={
-          <IconButton aria-label="forward" sx={{ marginTop: "330px", marginRight: "150px", color: "black", maxWidth: "100%" }}>
-            <ArrowForwardIosIcon />
-          </IconButton>
-        }
-        leftArrow={
-          <IconButton aria-label="backward" sx={{ marginTop: "330px", marginLeft: "150px", color: "black", maxWidth: "100%" }}>
-          <ArrowBackIosIcon/>
-        </IconButton>
-        }
+      <Grid
+        container
+        justifyContent={"center"}
+        className="general-padding"
+        sx={{
+          paddingBottom: "10px",
+          paddingTop: "100px",
+          mb: "100px",
+          height: "100%",
+        }}
+        spacing={3}
       >
-        {PrinList.map((s) => (
-          <PrinItem prin={s} />
-        ))}
-      </Carousel>
+        <Grid
+          item
+          xs={12}
+          sm={12}
+          md={12}
+          lg={12}
+          xl={12}
+          className="dark-blue m-0 Mod"
+        >
+          <h3 className="m-0">Principios</h3>
+          <h2 className="m-0">La Esencia que Nos Define</h2>
+        </Grid>
+        <Grid
+          item
+          xs={12}
+          sm={12}
+          md={12}
+          lg={12}
+          xl={12}
+        >
+          <Carousel
+            show={1}
+            slide={1}
+            transition={0.3}
+            rightArrow={
+              <IconButton aria-label="forward" sx={{ color: "black" }}>
+                <ArrowForwardIosIcon />
+              </IconButton>
+            }
+            leftArrow={
+              <IconButton aria-label="backward" sx={{ color: "black" }}>
+                <ArrowBackIosIcon />
+              </IconButton>
+            }
+          >
+            {PrinList.map((s) => (
+              <PrinItem prin={s} />
+            ))}
+          </Carousel>
+        </Grid>
+      </Grid>
     </div>
-    </div>
-
   );
 };
 
