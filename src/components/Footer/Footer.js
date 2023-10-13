@@ -35,12 +35,12 @@ const Footer = () => {
           md={2}
           lg={2}
           xl={2} sx={{ fontSize: 10, color: "#FFF" }}>
-        <div>Reserva tu sesión</div>
-        <div>Sobre Nosotros</div>
-        <div>Servicios</div>
-        <div>Modalidades</div>
-        <div>Equipo</div>
-        <div>Experiencias</div>
+<div style= {{marginBottom: 8}} >Reserva tu sesión</div>
+             <div style= {{marginBottom: 8}}>Sobre Nosotros</div>
+             <div style= {{marginBottom: 8}}>Servicios</div>
+             <div style= {{marginBottom: 8}}>Modalidades</div>
+             <div style= {{marginBottom: 8}}>Equipo</div>
+             <div style= {{marginBottom: 8}}>Experiencias</div>
       </Grid>
       <Grid item
           xs={3}
@@ -48,7 +48,7 @@ const Footer = () => {
           md={2}
           lg={2}
           xl={2} sx={{ fontSize: 10, color: "#FFF" }}>
-        <div>LinkedIn</div>
+             <div style= {{marginBottom: 8}}>LinkedIn</div>
         <div>Instagram</div>
       </Grid>
       <Grid item

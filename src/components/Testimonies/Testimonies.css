@@ -1,0 +1,6 @@
+.testBg {
+
+    background-image: url(../../static/images/TestRect.png);
+    height: 500px;
+    width: 700px;
+}

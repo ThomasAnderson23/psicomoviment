@@ -58,6 +58,9 @@ const Testimonies = () => {
                   sx={{ color: "black", marginTop: "120px" }}
                 >
                   <ArrowForwardIosIcon />
+
+<div className="TestBg"></div>
+
                 </IconButton>
               }
               leftArrow={

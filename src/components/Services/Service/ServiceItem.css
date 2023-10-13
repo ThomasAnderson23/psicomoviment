@@ -27,3 +27,9 @@ font-weight: 300;
     font-size: 20px;
     font-weight: bold;
 }
+
+
+img.MuiCardMedia-root {
+
+    object-fit: fill;
+}

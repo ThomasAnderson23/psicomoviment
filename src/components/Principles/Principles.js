@@ -76,12 +76,12 @@ spacing={3}
         slide={1}
         transition={0.3}
         rightArrow={
-          <IconButton aria-label="forward" sx={{ marginTop: "250px", marginRight: "150px", color: "black", maxWidth: "100%" }}>
+          <IconButton aria-label="forward" sx={{ marginTop: "330px", marginRight: "150px", color: "black", maxWidth: "100%" }}>
             <ArrowForwardIosIcon />
           </IconButton>
         }
         leftArrow={
-          <IconButton aria-label="backward" sx={{ marginTop: "250px", marginLeft: "150px", color: "black", maxWidth: "100%" }}>
+          <IconButton aria-label="backward" sx={{ marginTop: "330px", marginLeft: "150px", color: "black", maxWidth: "100%" }}>
           <ArrowBackIosIcon/>
         </IconButton>
         }

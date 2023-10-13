@@ -1,56 +1,48 @@
 .proContainer {
-    position: relative;
-    padding-top: 30px;
-    background-size: cover !important;
-} 
-
-.pro1 {
-    opacity: 1;
-    background-repeat: no-repeat;
-    background-image: url("../../../static/images/Professional.png");
-    
+  position: relative;
+  padding-top: 30px;
+  background-size: cover !important;
 }
 
-.pro1:hover {
-    background: linear-gradient(to bottom, transparent, black),
-    url("../../../static/images/Professional.png");
+.juan1 {
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-image: url("../../../static/images/Juan1.jpg");
 }
 
-
-.pro2 {
-    background: url("../../../static/images/Professional.png");
-    opacity: 1;
-    background-repeat: no-repeat;
-
-
-}
-.pro2:hover {
-    background: linear-gradient(to bottom, transparent, black),
-    url("../../../static/images/Professional.png");
+.juan1:hover {
+  background: linear-gradient(to bottom, transparent, black),
+    url("../../../static/images/Juan1.jpg");
 }
 
-.pro3 {
-
-    background: url("../../../static/images/Professional.png");
-    opacity: 1;
-    background-repeat: no-repeat;
-
-
-
+.maite {
+  background: url("../../../static/images/Maite.jpg");
+  opacity: 1;
+  background-repeat: no-repeat;
+}
+.maite:hover {
+  background: linear-gradient(to bottom, transparent, black),
+    url("../../../static/images/Maite.jpg");
 }
 
-.pro3:hover {
-    background: linear-gradient(to bottom, transparent, black),
-    url("../../../static/images/Professional.png");
+.juan2 {
+  background: url("../../../static/images/Juan2.png");
+  opacity: 1;
+  background-repeat: no-repeat;
+}
+
+.juan2:hover {
+  background: linear-gradient(to bottom, transparent, black),
+    url("../../../static/images/Juan2.png");
 }
 
 .alma-picture-container {
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
-    text-align: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  text-align: center;
 }
 
 .bg-position-center {
-    background-position: center;
+  background-position: center;
 }
