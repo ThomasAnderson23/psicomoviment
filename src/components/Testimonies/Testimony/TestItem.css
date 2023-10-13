@@ -33,11 +33,11 @@
         font-size: 11pt;
         padding-left: 0px;
         padding-right: 0px;
-        margin-top: 50px;
-        margin-bottom: 400px;
+        margin-top: 0px;
+        margin-bottom: 0px;
         font-weight: normal;
         text-align: center;
-        width: 80%;
+        width: 100%;
       }
   }
   
@@ -51,7 +51,7 @@
         margin-bottom: 400px;
         font-weight: normal;
         text-align: center;
-        width: 85%;
+        width: 100%;
       }
   }
   
@@ -59,12 +59,12 @@
   @media only screen and (min-width: 1200px) {
     .testText {
         font-size: 14pt;
-      padding-left: 100px;
-      padding-right: 100px;
+      padding-left: 0px;
+      padding-right: 0px;
       margin-top: 50px;
       margin-bottom: 400px;
       font-weight: lighter;
       text-align: center;
-      width: 85%;
+      width: 100%;
     }
   }

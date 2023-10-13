@@ -59,8 +59,6 @@ const Testimonies = () => {
                 >
                   <ArrowForwardIosIcon />
 
-<div className="TestBg"></div>
-
                 </IconButton>
               }
               leftArrow={

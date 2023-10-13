@@ -13,7 +13,7 @@ const Jumbotron = () => {
         <Typography
           variant="h4"
           className="jumboFont"
-          sx={{ color: "black !important", fontSize: '2' }}
+          sx={{ color: "black !important", fontSize: {xs: "10px", sm: "20px", md: "20px!important", lg: "40px!important"}, pt: {xs: "40px", sm: "40px", md: "25px", lg: "0px" }}}
         >
         
           <h3>Desata tu <br /> potencial interno</h3>
