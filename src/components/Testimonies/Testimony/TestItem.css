@@ -1,3 +1,10 @@
+.circle-portrait {
+  border-radius: 100%;
+  z-index: 1000;
+  position: relative;
+  top: 30px;
+}
+
 /* Very small devices */
 @media only screen and (max-width: 600px) {
   .testText {

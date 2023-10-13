@@ -15,9 +15,9 @@ const PrinItem = ({ prin }) => {
         item
         xs={12}
         sm={12}
-        md={4}
+        md={6}
         lg={5}
-        xl={4}
+        xl={5}
         sx={{ textAlign: "center" }}
       >
         <img src={image} alt="principle" width={350} height={500} />
@@ -36,8 +36,11 @@ const PrinItem = ({ prin }) => {
           m: "20px",
         }}
       >
-        <h3 className="PrinTitle">{title}</h3>
-        <p className="PrinDescription">{description}</p>
+        <div>
+          <h3 className="PrinTitle">{title}</h3>
+          <p className="PrinDescription">{description}</p>
+        </div>
+        
       </Grid>
     </Grid>
   );
