@@ -2,6 +2,11 @@ import React from "react";
 import { Grid } from "@mui/material";
 import "./PrinItem.css";
 
+const isMobile =
+    !!navigator.userAgent.match(/iphone|android|blackberry/gi) || false;
+const imageWidth = isMobile ? 250 : 350;
+const imageHeight = isMobile ? 400 : 500;
+
 const PrinItem = ({ prin }) => {
   const { image, title, description } = prin;
   return (
@@ -20,7 +25,7 @@ const PrinItem = ({ prin }) => {
         xl={5}
         sx={{ textAlign: "center" }}
       >
-        <img src={image} alt="principle" width={350} height={500} />
+        <img src={image} alt="principle" width={imageWidth} height={imageHeight} />
       </Grid>
       <Grid
         item
