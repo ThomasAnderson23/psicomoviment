@@ -49,6 +49,7 @@ const Principles = () => {
   return (
     <div>
       <Grid
+        id="principios"
         container
         justifyContent={"center"}
         className="general-padding"
@@ -58,7 +59,7 @@ const Principles = () => {
           mb: "100px",
           height: "100%",
         }}
-        spacing={3}
+        spacing={4}
       >
         <Grid
           item

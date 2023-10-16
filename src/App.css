@@ -55,6 +55,10 @@ body {
   color: #FFF;
 }
 
+a {
+  color: inherit;
+}
+
 
 /* RESPONSIVE */
 /* Extra small devices (phones, 600px and down) */

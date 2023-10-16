@@ -36,11 +36,12 @@ const servicesList = [
 const Services = () => {
   return (
     <Grid
+      id="servicios"
       container
       justifyContent={"center"}
       className="services-bg general-padding"
-      //spacing={4}
-      sx={{ paddingBottom: "150px", paddingTop: "80px", height: "100%" }}
+      spacing={4}
+      sx={{ paddingBottom: "150px", paddingTop: "100px", height: "100%" }}
     >
       <Grid
         item

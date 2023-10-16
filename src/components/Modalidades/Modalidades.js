@@ -30,10 +30,12 @@ const ModList = [
 const Modalidades = () => {
   return (
     <Grid
+    id="modalidades"
       container
+      spacing={4}
       justifyContent={"center"}
       className="general-padding"
-      sx={{ paddingTop: "150px", height: "100%" }}
+      sx={{ paddingTop: "100px", height: "100%" }}
     >
       <Grid
         item

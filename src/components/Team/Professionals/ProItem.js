@@ -81,7 +81,7 @@ const ProItem = ({ pro }) => {
           md={12}
           lg={12}
           xl={12}
-          sx={{ textAlign: "-webkit-center", marginBottom: "100px", borderRadius: "25px", display: { xs: 'block', sm: 'none' } }}
+          sx={{ textAlign: "-webkit-center", borderRadius: "25px", display: { xs: 'block', sm: 'none' } }}
         >
           <div className={`alma-picture-container bg-position-center ${backgroundImageClass}`} />
           <h4>

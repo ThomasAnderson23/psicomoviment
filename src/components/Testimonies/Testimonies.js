@@ -33,10 +33,13 @@ const TestList = [
 const Testimonies = () => {
   return (
       <Grid
+        id="experiencias"
         container
         justifyContent={"center"}
         className="general-padding"
-        sx={{ marginBottom: "-250px", paddingTop: "10px" }}
+        spacing={4}
+        sx={{ marginBottom: "-250px", paddingBottom: "10px",
+        paddingTop: "100px", }}
       >
         <Grid
           item

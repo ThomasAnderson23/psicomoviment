@@ -10,16 +10,13 @@ import { IconButton, Menu, MenuItem } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 
 const pages = [
-  "Reserva Tu Sesión",
-  "Sobre Nosotros",
-  "Servicios",
-  "Modalidades",
-  "Equipo",
-  "Experiencias",
+  {name: "Reserva Tu Sesión", link: "#jumbotron"},
+  {name: "Sobre Nosotros", link: "#aboutus"},
+  {name: "Servicios", link: "#servicios"},
+  {name: "Modalidades", link: "#modalidades"},
+  {name: "Equipo", link: "#equipo"},
+  {name: "Experiencias", link: "#experiencias"},
 ];
-
-const isMobile =
-  !!navigator.userAgent.match(/iphone|android|blackberry/gi) || false;
 
 export default function ButtonAppBar() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -71,18 +68,22 @@ export default function ButtonAppBar() {
             onClose={handleClose}
           >
             {pages.map((page) => (
-              <MenuItem onClick={handleClose}>{page}</MenuItem>
+              <MenuItem onClick={handleClose}>{page.name}</MenuItem>
             ))}
           </Menu>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {pages.map((page) => (
+              <a href={page.link}>
               <Button
                 color="inherit"
                 className="normalCase"
                 sx={{ fontSize: "10pt" }}
+                //onClick={goToSection}
               >
-                {page}
+                {page.name}
               </Button>
+
+              </a>
             ))}
           </Box>
         </Toolbar>

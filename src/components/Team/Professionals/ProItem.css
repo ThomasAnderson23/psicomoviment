@@ -45,4 +45,5 @@
 
 .bg-position-center {
   background-position: center;
+  background-size: cover;
 }

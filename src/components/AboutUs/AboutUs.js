@@ -5,6 +5,7 @@ import { Grid } from '@mui/material';
 const AboutUs = () => {
   return (
     <Grid
+      id="aboutus"
       container
       justifyContent={"center"}
       className="general-padding"

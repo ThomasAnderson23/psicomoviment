@@ -24,11 +24,7 @@
 }
 
 .jumboButton {
-  width: 300px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 150px;
+  border-radius: 8px !important;
 }
 
 .h1 {
