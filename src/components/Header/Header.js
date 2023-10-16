@@ -10,12 +10,12 @@ import { IconButton, Menu, MenuItem } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 
 const pages = [
-  {name: "Reserva Tu Sesión", link: "#jumbotron"},
-  {name: "Sobre Nosotros", link: "#aboutus"},
-  {name: "Servicios", link: "#servicios"},
-  {name: "Modalidades", link: "#modalidades"},
-  {name: "Equipo", link: "#equipo"},
-  {name: "Experiencias", link: "#experiencias"},
+  { name: "Reserva Tu Sesión", link: "#jumbotron" },
+  { name: "Sobre Nosotros", link: "#aboutus" },
+  { name: "Servicios", link: "#servicios" },
+  { name: "Modalidades", link: "#modalidades" },
+  { name: "Equipo", link: "#equipo" },
+  { name: "Experiencias", link: "#experiencias" },
 ];
 
 export default function ButtonAppBar() {
@@ -30,11 +30,7 @@ export default function ButtonAppBar() {
   };
   return (
     <Box sx={{ display: "flex" }}>
-      <AppBar
-       className="header-fix"
-        position="fixed"
-        component="nav"
-      >
+      <AppBar className="header-fix" position="fixed" component="nav">
         <Toolbar>
           <img src={Logo} alt="psicomovimentLogo" width={80} />
           <Typography
@@ -68,21 +64,21 @@ export default function ButtonAppBar() {
             onClose={handleClose}
           >
             {pages.map((page) => (
-              <MenuItem onClick={handleClose}>{page.name}</MenuItem>
+              <a href={page.link}>
+                <MenuItem onClick={handleClose}>{page.name}</MenuItem>
+              </a>
             ))}
           </Menu>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {pages.map((page) => (
               <a href={page.link}>
-              <Button
-                color="inherit"
-                className="normalCase"
-                sx={{ fontSize: "10pt" }}
-                //onClick={goToSection}
-              >
-                {page.name}
-              </Button>
-
+                <Button
+                  color="inherit"
+                  className="normalCase"
+                  sx={{ fontSize: "10pt" }}
+                >
+                  {page.name}
+                </Button>
               </a>
             ))}
           </Box>
