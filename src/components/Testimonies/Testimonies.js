@@ -7,6 +7,7 @@ import { IconButton } from "@mui/material";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import BenjaminImg from "../../static/images/Benjamin.png";
+import ArleyImg from "../../static/images/Arley.jpg"
 
 const TestList = [
   {
@@ -16,18 +17,13 @@ const TestList = [
     description:
       "Solicité la ayuda profesional de Juan Adolfo para fortalecer la relación con mis deportistas de natación en el Estadio Español en 2017. También buscamos su colaboración para mejorar su desarrollo deportivo. Juan Adolfo realizó una evaluación exhaustiva de nuestro trabajo y presentó un proyecto al cual nos sumamos. Trabajó de cerca con los diferentes grupos y logró que nuestros deportistas se entregaran de manera más constante y consciente en los entrenamientos. Además, me ayudó a establecer relaciones más sólidas con mis deportistas como entrenador. Su contribución fue fundamental para nuestro desarrollo deportivo debido a su enfoque cercano tanto a los deportistas como a los entrenadores.",
   },{
-    image: BenjaminImg,
-    name: "Benjamín Vergara",
-    title: "Entrenador de natación Estadio Español de Las Condes, 2016-2023",
+    image: ArleyImg,
+    name: "Arley Méndez",
+    title: "Levantador de Pesas Team Chile (Campeon Mundial de Halterofilia 2017)",
     description:
-      "Solicité la ayuda profesional de Juan Adolfo para fortalecer la relación con mis deportistas de natación en el Estadio Español en 2017. También buscamos su colaboración para mejorar su desarrollo deportivo. Juan Adolfo realizó una evaluación exhaustiva de nuestro trabajo y presentó un proyecto al cual nos sumamos. Trabajó de cerca con los diferentes grupos y logró que nuestros deportistas se entregaran de manera más constante y consciente en los entrenamientos. Además, me ayudó a establecer relaciones más sólidas con mis deportistas como entrenador. Su contribución fue fundamental para nuestro desarrollo deportivo debido a su enfoque cercano tanto a los deportistas como a los entrenadores.",
-  },{
-    image: BenjaminImg,
-    name: "Benjamín Vergara",
-    title: "Entrenador de natación Estadio Español de Las Condes, 2016-2023",
-    description:
-      "Solicité la ayuda profesional de Juan Adolfo para fortalecer la relación con mis deportistas de natación en el Estadio Español en 2017. También buscamos su colaboración para mejorar su desarrollo deportivo. Juan Adolfo realizó una evaluación exhaustiva de nuestro trabajo y presentó un proyecto al cual nos sumamos. Trabajó de cerca con los diferentes grupos y logró que nuestros deportistas se entregaran de manera más constante y consciente en los entrenamientos. Además, me ayudó a establecer relaciones más sólidas con mis deportistas como entrenador. Su contribución fue fundamental para nuestro desarrollo deportivo debido a su enfoque cercano tanto a los deportistas como a los entrenadores.",
+      "Llevo un tiempo trabajando un tiempo con Psicomoviment. Me siento muy feliz de trabajar con ellos, ya que la parte psicologica para los deportista de alto rendimiento es sumamente importante. Hay veces que vamos en picada y no podemos encontrar nuestro rumbo o dibujar un buen camino por donde avanzar, es ahí donde entra la psicología, dandome confianza en mi a pesar de las dificultades.",
   },
+  
 ];
 
 const Testimonies = () => {

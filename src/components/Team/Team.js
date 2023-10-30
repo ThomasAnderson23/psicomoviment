@@ -18,13 +18,6 @@ const teamList = [
       "Soy psicólogo de la Universidad de Chile con estudios de especialización en psicoterapia humanista existencial, Gestalt y Focusing.",
     backgroundImageClass: "maite",
   },
-  {
-    title: "Juan Fernández A.",
-    position: "Psicólogo Deportivo",
-    description:
-      "Soy psicólogo de la Universidad de Chile con estudios de especialización en psicoterapia humanista existencial, Gestalt y Focusing.",
-    backgroundImageClass: "juan2",
-  },
 ];
 
 const Team = () => {

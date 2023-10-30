@@ -5,7 +5,7 @@ import './ServiceItem.css'
 const ServiceItem = ({service}) => {
   const {title, description, image} = service;
   return (
-    <Card sx={{ maxWidth: 330, maxHeight: 450 }} className='service-card'>
+    <Card sx={{ maxWidth: 310, maxHeight: 450 }} className='service-card'>
       <CardActionArea className="horiCards">
         <CardMedia
           component="img"
