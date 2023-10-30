@@ -25,7 +25,7 @@ const PrinItem = ({ prin }) => {
         xl={5}
         sx={{ textAlign: "center" }}
       >
-        <img src={image} alt="principle" width={imageWidth} height={imageHeight} />
+        <img src={image} alt={title} width={imageWidth} height={imageHeight} className="rounded-border" />
       </Grid>
       <Grid
         item
@@ -37,7 +37,7 @@ const PrinItem = ({ prin }) => {
         sx={{
           color: "#000",
           fontWeight: "normal",
-          fontSize: "10px",
+          fontSize: "16px",
           m: "20px",
         }}
       >
