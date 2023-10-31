@@ -6,14 +6,14 @@ import ProItem from "./Professionals/ProItem";
 const teamList = [
   {
     title: "Juan Fernández A.",
-    position: "Psicólogo Deportivo",
+    position: "Psicólogo del Deporte",
     description:
-      "Soy psicólogo de la Universidad de Chile con estudios de especialización en psicoterapia humanista existencial, Gestalt y Focusing.",
+      "Psicólogo del Deporte y de la Actividad Física, Universidad de Barcelona, España. Psicólogo en el Comité Olímpico de Chile. Docente de Post Grado y Consultor Organizacional.",
     backgroundImageClass: "juan1",
   },
   {
     title: "Maite Ramírez",
-    position: "Psicóloga Deportiva",
+    position: "Psicóloga del Deporte",
     description:
       "Soy psicólogo de la Universidad de Chile con estudios de especialización en psicoterapia humanista existencial, Gestalt y Focusing.",
     backgroundImageClass: "maite",

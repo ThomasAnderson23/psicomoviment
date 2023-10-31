@@ -2,7 +2,7 @@ import React from "react";
 import "./Services.css";
 import { Grid } from "@mui/material";
 import ServiceImage0 from "../../static/images/Service-0.png";
-import ServiceImage1 from "../../static/images/Service-1.png";
+import ServiceImage1 from "../../static/images/Service-1.jpg";
 import ServiceImage2 from "../../static/images/Service-2.png";
 import ServiceItem from "./Service/ServiceItem";
 
@@ -20,7 +20,7 @@ const servicesList = [
     image: ServiceImage1,
   },
   {
-    title: "Organizacional",
+    title: "Organizaciones",
     description:
       "Nuestro servicio de coaching se enfoca en el equipo humano de tu organización, buscando mejorar la eficacia de los resultados y aumentar la motivación y satisfacción de los empleados.",
     image: ServiceImage2,

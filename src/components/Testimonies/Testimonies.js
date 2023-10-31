@@ -32,7 +32,7 @@ const TestList = [
   {
     image: DanielImg,
     name: "Daniel Cabré",
-    title: "Regatista, Real Federación Española de Vela",
+    title: "Regatista, Real Federación Española de Vela (Vicecampeón del mundo Clase Europa 2022)",
     description:
       "La experiencia que he tenido con Psicomoviment es increíble, me he sentido querido y apoyado siempre, en los momentos buenos pero sobre todo en los momentos malos. Se nota que esto lo hace por pasión ya que le pone un trabajo y unas ganas impresionantes, todo para que el proceso sea lo mejor posible. Gracias al trabajo hecho, pude rendir en una situación muy complicada a nivel personal que creo que sin su ayuda no lo habría conseguido. Desde que le conocí noté unas ganas por ayudar increíble, con solo un par de semanas de conocerme tanto a mí como al deporte supo cómo ayudar, esto es sorprendente porque al conocernos no había vivido nunca una regata pero le puso todo el esfuerzo para entender cómo funcionaba y cómo podríamos aumentar el rendimiento al máximo.",
   },
@@ -46,7 +46,7 @@ const TestList = [
   {
     image: YutakaImg,
     name: "Yutaka Matsubara",
-    title: "Seleccionada Chilena de Tenis de Mesa",
+    title: "Seleccionado Universitario en Japón",
     description:
 "Me ayudó mucho desde mi etapa juvenil hasta mi adultez. Dentro de las habilidades que trabajamos fueron: el cierre de los partidos, como superar momentos de tensión, mantenerme en armonía con mis emociones, prepararme para partidos importantes. Cosas que me ayudaron como deportista pero también como persona."  },
 ];
