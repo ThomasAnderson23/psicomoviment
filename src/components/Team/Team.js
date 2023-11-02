@@ -15,7 +15,7 @@ const teamList = [
     title: "Maite Ramírez",
     position: "Psicóloga del Deporte",
     description:
-      "Soy psicólogo de la Universidad de Chile con estudios de especialización en psicoterapia humanista existencial, Gestalt y Focusing.",
+      "Psicóloga especialista en el área Clínica Adulto e infanto juvenil; Procesos Deportivos y Psicodiagnostico. Asesorías Area Esucacional y Organizacional.",
     backgroundImageClass: "maite",
   },
 ];
