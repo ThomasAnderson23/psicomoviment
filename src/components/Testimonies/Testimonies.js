@@ -20,7 +20,7 @@ const TestList = [
     title:
       "Levantador de Pesas Team Chile (Campeon Mundial de Halterofilia 2017)",
     description:
-      "Llevo un tiempo trabajando con Psicomoviment. Me siento muy feliz de trabajar con ellos, ya que la parte psicologica para los deportista de alto rendimiento es sumamente importante. Hay veces que vamos en picada y no podemos encontrar nuestro rumbo o dibujar un buen camino por donde avanzar, es ahí donde entra la psicología, dandome confianza en mi a pesar de las dificultades.",
+      "Llevo un tiempo trabajando con Psicomoviment. Me siento muy feliz de trabajar con ellos, ya que la parte psicológica para los deportista de alto rendimiento es sumamente importante. Hay veces que vamos en picada y no podemos encontrar nuestro rumbo o dibujar un buen camino por donde avanzar, es ahí donde entra la psicología, dándome confianza a pesar de las dificultades.",
   },
   {
     image: BenjaminImg,
