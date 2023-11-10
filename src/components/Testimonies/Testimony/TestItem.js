@@ -21,7 +21,7 @@ const TestItem = ({ test }) => {
         xl={9}
         sx={{
           textAlign: "center",
-          display: { xs: "none", sm: "block", md: "block", lg: "block", xl: "block"  },
+          display: { xs: "block", sm: "block", md: "block", lg: "block", xl: "block"  },
         }}
       >
         <img
