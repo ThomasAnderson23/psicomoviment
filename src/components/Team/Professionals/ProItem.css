@@ -25,6 +25,18 @@
     url("../../../static/images/Maite.jpg");
 }
 
+.domingo {
+  background: url("../../../static/images/domingo.jpeg");
+  opacity: 1;
+  background-repeat: no-repeat;
+}
+.domingo:hover {
+  background: linear-gradient(to bottom, transparent, black),
+    url("../../../static/images/domingo.jpeg");
+}
+
+
+
 .juan2 {
   background: url("../../../static/images/Juan2.png");
   opacity: 1;

@@ -18,6 +18,15 @@ const teamList = [
       "Psicóloga especialista en el área Clínica Adulto e infanto juvenil; Procesos Deportivos y Psicodiagnostico. Asesorías Area Esucacional y Organizacional.",
     backgroundImageClass: "maite",
   },
+  {
+    title: "Domingo Zavala",
+    position: "Psicólogo",
+    description:
+      " Psicólogo egresado de la Universidad Diego Portales, con experiencia en procesos comunitarios y deportivos con niños y adolescentes. Participación del equipo de Psicólogos Voluntarios en Juegos Panamericanos Santiago 2023.",
+    backgroundImageClass: "domingo",
+  },
+ 
+
 ];
 
 const Team = () => {
