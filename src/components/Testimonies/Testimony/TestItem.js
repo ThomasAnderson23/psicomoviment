@@ -88,6 +88,8 @@ const TestItem = ({ test }) => {
           backgroundColor: { sm: "#FFF", md: "auto" },
           pr: "10px",
           pl: "10px",
+          pt: { xs: "20px", sm: "20px", md: "0px", lg: "0", xl: "0"},
+
         }}
       >
         <p>"{description}"</p>
