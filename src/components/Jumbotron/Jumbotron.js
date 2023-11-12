@@ -28,7 +28,7 @@ const Jumbotron = () => {
           </h3>
         </Typography>
         <a
-          href={`https://api.whatsapp.com/send?phone=${+56993301190}`}
+          href={`https://api.whatsapp.com/send?phone=${+56967351118}`}
           target="_blank"
           rel="noreferrer"
         >

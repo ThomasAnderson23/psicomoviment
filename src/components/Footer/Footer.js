@@ -26,8 +26,8 @@ const Footer = () => {
         <div>Gral. Holley 2326. Of 1305</div>
         <div>Providencia</div>
         <div style={{ marginBottom: 30 }}>Santiago de Chile</div>
-        <div style={{ fontSize: 13 }}>+56 9 9330 1190</div>
-        <div style={{ fontSize: 13 }}>Juan.fernandez@psicomoviment.cl</div>
+        <div style={{ fontSize: 13 }}>+56 9 6723 1118 </div>
+        <div style={{ fontSize: 13 }}>info@psicomoviment.cl</div>
       </Grid>
       <Grid item 
           xs={4}
