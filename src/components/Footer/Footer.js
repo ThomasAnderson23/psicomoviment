@@ -1,6 +1,5 @@
 import React from "react";
 import { Grid } from "@mui/material";
-import ArrowCircleUpIcon from "@mui/icons-material/ArrowCircleUp";
 import Logo from "../../static/images/psicomovimentLogo.png";
 import "./Footer.css";
 
@@ -48,18 +47,9 @@ const Footer = () => {
           md={2}
           lg={2}
           xl={2} sx={{ fontSize: 10, color: "#FFF" }}>
-             <div style= {{marginBottom: 8}}>LinkedIn</div>
-        <div>Instagram</div>
+        <a href="https://www.instagram.com/psico_moviment?igshid=OGQ5ZDc2ODk2ZA%3D%3D"> Instagram </a>
       </Grid>
-      <Grid item
-          xs={4}
-          sm={4}
-          md={4}
-          lg={2}
-          xl={2}>
-          <ArrowCircleUpIcon sx={{ fontSize: 60, color: "#FFF" }} />{" "}
-
-      </Grid>
+   
     </Grid>
   );
 };
