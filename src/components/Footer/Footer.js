@@ -34,12 +34,12 @@ const Footer = () => {
           md={2}
           lg={2}
           xl={2} sx={{ fontSize: 10, color: "#FFF" }}>
-<div style= {{marginBottom: 8}} >Reserva tu sesión</div>
-             <div style= {{marginBottom: 8}}>Sobre Nosotros</div>
-             <div style= {{marginBottom: 8}}>Servicios</div>
-             <div style= {{marginBottom: 8}}>Modalidades</div>
-             <div style= {{marginBottom: 8}}>Equipo</div>
-             <div style= {{marginBottom: 8}}>Experiencias</div>
+<div style= {{marginBottom: 8}}><a href="#jumbotron"> Reserva tu Sesión</a> </div>
+             <div style= {{marginBottom: 8}}><a href="#aboutus"> Sobre Nosotros</a> </div>
+             <div style= {{marginBottom: 8}}><a href="#servicios"> Servicioss</a></div>
+             <div style= {{marginBottom: 8}}><a href="#modalidades"> Modalidades</a> </div>
+             <div style= {{marginBottom: 8}}><a href="#equipo"> Equipo</a> </div>
+             <div style= {{marginBottom: 8}}><a href="#experiencias"> Experiencias</a> </div>
       </Grid>
       <Grid item
           xs={3}
