@@ -10,7 +10,7 @@ import { IconButton, Menu, MenuItem } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 
 const pages = [
-  { name: "Reserva Tu Sesión", link: "#jumbotron" },
+  { name: "Haz tu Consulta", link: "#jumbotron" },
   { name: "Sobre Nosotros", link: "#aboutus" },
   { name: "Servicios", link: "#servicios" },
   { name: "Modalidades", link: "#modalidades" },

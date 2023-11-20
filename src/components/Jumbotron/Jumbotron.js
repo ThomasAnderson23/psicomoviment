@@ -52,7 +52,7 @@ const Jumbotron = () => {
             variant="contained"
             color="primary"
           >
-            Reserva tu Sesión Ahora{" "}
+            Haz tu consulta aquí{" "}
           </Button>
         </a>
       </div>

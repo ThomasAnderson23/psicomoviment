@@ -27,7 +27,7 @@ const Footer = () => {
         <div>Gral. Holley 2326. Of 1305</div>
         <div>Providencia</div>
         <div style={{ marginBottom: 30 }}>Santiago de Chile</div>
-        <div style={{ fontSize: 13 }}>+56 9 6723 1118 </div>
+        <div style={{ fontSize: 13 }}>+56 9 6723 1118 (Solo WhatsApp)</div>
         <div style={{ fontSize: 13 }}>info@psicomoviment.cl</div>
       </Grid>
       <Grid item 
@@ -36,7 +36,7 @@ const Footer = () => {
           md={2}
           lg={2}
           xl={2} sx={{ fontSize: 10, color: "#FFF" }}>
-<div style= {{marginBottom: 8}}><a href="#jumbotron"> Reserva tu Sesión</a> </div>
+<div style= {{marginBottom: 8}}><a href="#jumbotron"> Haz tu Consulta</a> </div>
              <div style= {{marginBottom: 8}}><a href="#aboutus"> Sobre Nosotros</a> </div>
              <div style= {{marginBottom: 8}}><a href="#servicios"> Servicioss</a></div>
              <div style= {{marginBottom: 8}}><a href="#modalidades"> Modalidades</a> </div>
