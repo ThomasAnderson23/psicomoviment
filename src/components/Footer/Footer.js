@@ -2,6 +2,8 @@ import React from "react";
 import { Grid } from "@mui/material";
 import Logo from "../../static/images/psicomovimentLogo.png";
 import "./Footer.css";
+import InstagramIcon from '@mui/icons-material/Instagram';
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 const Footer = () => {
   return (
@@ -47,7 +49,18 @@ const Footer = () => {
           md={2}
           lg={2}
           xl={2} sx={{ fontSize: 10, color: "#FFF" }}>
-        <a href="https://www.instagram.com/psico_moviment?igshid=OGQ5ZDc2ODk2ZA%3D%3D"> Instagram </a>
+
+            
+        <a href="https://www.instagram.com/psico_moviment?igshid=OGQ5ZDc2ODk2ZA%3D%3D">
+              <InstagramIcon
+                sx={{
+                  fontSize: "23px !important",
+                }}/> </a>
+        <a href= {`https://api.whatsapp.com/send?phone=${+56967351118}`}> <WhatsAppIcon
+                sx={{
+                  fontSize: "23px !important",
+                  ml: "10px"
+                }}/>  </a>
       </Grid>
    
     </Grid>
