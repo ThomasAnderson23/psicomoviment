@@ -27,6 +27,9 @@ const Footer = () => {
         <div>Gral. Holley 2326. Of 1305</div>
         <div>Providencia</div>
         <div style={{ marginBottom: 30 }}>Santiago de Chile</div>
+        <div style={{ fontWeight: 800 }}>Consulta Psicológica</div>
+        <div> Av Américo Vespucio Sur 1307. Of. 417</div>
+        <div style={{ marginBottom: 30 }}>Las Condes</div>
         <div style={{ fontSize: 13 }}><a href= {`https://api.whatsapp.com/send?phone=${+56967351118}`}>+56 9 6723 1118 (Solo WhatsApp)</a></div>
         <div style={{ fontSize: 13 }}><a href="https://www.instagram.com/psico_moviment?igshid=OGQ5ZDc2ODk2ZA%3D%3D">@psico_moviment</a></div>
         <div style={{ fontSize: 13 }}>info@psicomoviment.cl</div>

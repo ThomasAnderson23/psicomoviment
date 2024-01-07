@@ -4,29 +4,41 @@ import { Grid } from "@mui/material";
 import ProItem from "./Professionals/ProItem";
 
 const teamList = [
+  { 
+    title: "Benjamín Vergara Cristi",
+    position: "Asesor Metodológico",
+    description:
+      "Profesor de Educación Física, UMCE. Entrenador de Natación con más de 20 años de Experiencia. Entrenador jefe Rama de Natación de Estadio Español de Las Conde hasta 2023. Docente y asesor técnico de natación.",
+    backgroundImageClass: "benjamin", 
+    },
   {
     title: "Juan Fernández A.",
-    position: "Psicólogo del Deporte",
+    position: "CEO Fundador / Head Mental Coach",
     description:
       "Psicólogo del Deporte y de la Actividad Física, Universidad de Barcelona, España. Psicólogo en el Comité Olímpico de Chile. Docente de Post Grado y Consultor Organizacional.",
     backgroundImageClass: "juan1",
-  },
+  }, 
   {
-    title: "Maite Ramírez",
-    position: "Psicóloga del Deporte",
-    description:
-      "Psicóloga especialista en el área Clínica Adulto e infanto juvenil; Procesos Deportivos y Psicodiagnostico. Asesorías Area Esucacional y Organizacional.",
-    backgroundImageClass: "maite",
-  },
-  {
-    title: "Domingo Zavala",
-    position: "Psicólogo",
-    description:
-      " Psicólogo egresado de la Universidad Diego Portales, con experiencia en procesos comunitarios y deportivos con niños y adolescentes. Participación del equipo de Psicólogos Voluntarios en Juegos Panamericanos Santiago 2023.",
-    backgroundImageClass: "domingo",
-  },
- 
-
+  title: "Dr. Matías Moreno",
+  position: "Coordinador Evaluaciones y Neurociencias",
+  description:
+    "Médico especialista en Psiquiatría, más de diez años de experiencia clínica en Chile y el extranjero. Miembro del Área Médica del Comité Olímpico de Chile. Acompañamiento a deportistas de disciplinas como rugby, fútbol, tenis, equitación, hockey césped y golf.",
+  backgroundImageClass: "matias", 
+},
+{
+  title: "Maite Ramírez",
+  position: "Área Capacitación y Desarrollo ",
+  description:
+    "Psicóloga especialista en el área Clínica Adulto e infanto juvenil; Procesos Deportivos y Psicodiagnostico. Asesorías Area Esucacional y Organizacional.",
+  backgroundImageClass: "maite",
+},
+{
+  title: "Domingo Zavala",
+  position: "Trainee Program",
+  description:
+    " Psicólogo egresado de la Universidad Diego Portales, con experiencia en procesos comunitarios y deportivos con niños y adolescentes. Participación del equipo de Psicólogos Voluntarios en Juegos Panamericanos Santiago 2023.",
+  backgroundImageClass: "domingo",
+}
 ];
 
 const Team = () => {

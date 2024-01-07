@@ -20,7 +20,7 @@ const AboutUs = () => {
         <h2 className='m-0 title1'>
           Psico Moviment
         </h2>
-        Somos un equipo de profesionales que busca promover el desarrollo del rendimiento humano, con los mejores programas de acompañamiento psicológico, adaptada a cada persona, deportista y/o organizaciones.
+        Somos un equipo de profesionales que busca promover el desarrollo del rendimiento humano, con los mejores programas de acompañamiento psicológico, adaptada a cada persona, deportista u organizaciones.
       </Grid>
     </Grid>
   );

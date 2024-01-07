@@ -10,7 +10,7 @@ const servicesList = [
   {
     title: "Personal",
     description:
-      "Encuentra apoyo emocional con nuestro coaching personal. Ayudamos a fortalecer tu bienestar mental y emocional.",
+      "Encuentra apoyo emocional con nuestro programa de acompañamiento psicológico realizado por expertos. Te ayudarán a fortalecer y promover tu bienestar emocional y mental",
     image: ServiceImage0,
   },
   {

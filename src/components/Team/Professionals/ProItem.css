@@ -25,6 +25,17 @@
     url("../../../static/images/Maite.jpg");
 }
 
+.matias {
+  background: url("../../../static/images/matias.jpg");
+  opacity: 1;
+  background-repeat: no-repeat;
+}
+.matias:hover {
+  background: linear-gradient(to bottom, transparent, black),
+    url("../../../static/images/matias.jpg");
+}
+
+
 .domingo {
   background: url("../../../static/images/domingo.jpeg");
   opacity: 1;
@@ -35,7 +46,16 @@
     url("../../../static/images/domingo.jpeg");
 }
 
+.benjamin {
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-image: url("../../../static/images/Benjamin1.jpg");
+}
 
+.benjamin:hover {
+  background: linear-gradient(to bottom, transparent, black),
+    url("../../../static/images/Benjamin1.jpg");
+}
 
 .juan2 {
   background: url("../../../static/images/Juan2.png");

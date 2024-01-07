@@ -14,9 +14,9 @@ import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 
 const PrinList = [
   {
-    title: "1. Profesionalismo",
+    title: "1. Compromiso",
     description:
-      "En Psico Moviment, el profesionalismo es la base de nuestro compromiso con los deportistas.  Valoramos la confidencialidad, la ética y la excelencia en cada paso de nuestro trabajo, asegurando que cada deportista confíe en nosotros en su búsqueda del éxito olímpico.",
+      "En Psico Moviment, el compromiso es la base de nuestro profesionalismo con los deportistas.  Valoramos la confidencialidad, la ética y la excelencia en cada paso de nuestro trabajo, asegurando que cada deportista confíe en nosotros en su búsqueda del éxito olímpico.",
     image: Car1,
   },
   {
