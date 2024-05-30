@@ -68,15 +68,15 @@
     url("../../../static/images/Juan2.png");
 }
 
-.extra {
-  background: url("../../../static/images/extra.jpeg");
+.felipe {
+  background: url("../../../static/images/felipe.jpeg");
   opacity: 1;
   background-repeat: no-repeat;
 }
 
-.extra:hover {
+.felipe:hover {
   background: linear-gradient(to bottom, transparent, black),
-    url("../../../static/images/extra.jpeg");
+    url("../../../static/images/felipe.jpeg");
 }
 
 .alma-picture-container {

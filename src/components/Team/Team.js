@@ -17,7 +17,14 @@ const teamList = [
     description:
       "Psicólogo del Deporte y de la Actividad Física, Universidad de Barcelona, España. Psicólogo en el Comité Olímpico de Chile. Docente de Post Grado y Consultor Organizacional.",
     backgroundImageClass: "juan1",
-  }, 
+  },
+  {   
+    title: "Felipe Andrés Fuenzalida Olea",
+    position: "Área Coaching y Desarrollo Organizacional",
+    description:
+      "Psicologo U de Chile. Coach de la International coaching community. Relator y Consultor con 25 años de experiencia en el mundo Deportivo y Organizacional.",
+    backgroundImageClass: "felipe",
+  },
   {
   title: "Dr. Matías Moreno",
   position: "Coordinador Evaluaciones y Neurociencias",
@@ -39,12 +46,6 @@ const teamList = [
     " Psicólogo egresado de la Universidad Diego Portales, con experiencia en procesos comunitarios y deportivos con niños y adolescentes. Participación del equipo de Psicólogos Voluntarios en Juegos Panamericanos Santiago 2023.",
   backgroundImageClass: "domingo",
 },
-{   title: "Extra",
-    position: "Definir",
-    description:
-      " Agregar descripción...",
-    backgroundImageClass: "extra",
-}
 ];
 
 const Team = () => {
