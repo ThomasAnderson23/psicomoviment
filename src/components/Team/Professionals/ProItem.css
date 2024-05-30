@@ -68,6 +68,17 @@
     url("../../../static/images/Juan2.png");
 }
 
+.extra {
+  background: url("../../../static/images/extra.jpeg");
+  opacity: 1;
+  background-repeat: no-repeat;
+}
+
+.extra:hover {
+  background: linear-gradient(to bottom, transparent, black),
+    url("../../../static/images/extra.jpeg");
+}
+
 .alma-picture-container {
   width: 300px;
   height: 300px;

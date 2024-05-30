@@ -38,6 +38,12 @@ const teamList = [
   description:
     " Psicólogo egresado de la Universidad Diego Portales, con experiencia en procesos comunitarios y deportivos con niños y adolescentes. Participación del equipo de Psicólogos Voluntarios en Juegos Panamericanos Santiago 2023.",
   backgroundImageClass: "domingo",
+},
+{   title: "Extra",
+    position: "Definir",
+    description:
+      " Agregar descripción...",
+    backgroundImageClass: "extra",
 }
 ];
 
