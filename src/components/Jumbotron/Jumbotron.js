@@ -30,7 +30,7 @@ const Jumbotron = () => {
           }}
         >
           <h3 className="jumboFont">
-            Acompañando tus ideas para lograr tu mejor versión en tu organización.
+            Acompañando tus ideas para lograr tu mejor versión en tu organización
           </h3>
         </Typography>
         <a
