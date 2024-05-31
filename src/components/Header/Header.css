@@ -2,6 +2,10 @@
   text-transform: none !important;
 }
 
+.normalCase:hover {
+  background-color: #2a5578 !important;
+}
+
 
 
 /* RESPONSIVE */
