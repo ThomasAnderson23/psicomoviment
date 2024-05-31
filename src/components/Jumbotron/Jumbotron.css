@@ -27,6 +27,10 @@
   border-radius: 8px !important;
 }
 
+.jumboButton:hover {
+  background-color: #37aa47 !important;
+}
+
 .h1 {
   margin: 10;
 }
